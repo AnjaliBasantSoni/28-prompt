@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 47, 47);
+}
+#container{
+    width: 90%;
+    height: 95%;
+    background-color: #9f5656;
+}
+#nav{
+    width: 100%;
+    overflow: hidden;
+    height: 18%;
+    position: relative;
+    background-color: #70e00ff9;
+}
+#hello{
+    width: 100%;
+    height:135%;
+    filter: blur(3.5px);
+    object-fit: center;
+}
+#container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    margin-top: -7%;
+    margin-left: 7%;
+    font-size: 90px;
+}
+#container iframe{
+    width: 100%;
+    height: 82%;
+    object-fit: center;
+}
+#box{
+    width: 25%;
+    position: absolute;
+    margin-top: -38.3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 65%;
+    height: 70%;
+    background-color:rgb(155, 216, 220);
+}
+#line{
+    width: 80%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    padding: 0px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#icon{
+    width: 15%;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    font-weight: 700;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #751818; */
+}
+.info{
+    width: 80%;
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    /* background-color: rgb(21, 98, 83); */
+}
+#head{
+    width: 70%;
+    height: 100%;
+    text-align: start;
+    padding: 0px 10px;
+    /* background-color: gold; */
+}
+#head h5{
+    color: rgb(66, 64, 64);
+}
+#head h4{
+    color: blue;
+}
+#earth{
+    width: 30%;
+    height: 100%;
+    padding:20px 10px;
+    /* background-color: green; */
+}
+#earth i{
+    color: blue;
+    /* background-color: #fff; */
+    padding: 10px;
+    position: relative;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
